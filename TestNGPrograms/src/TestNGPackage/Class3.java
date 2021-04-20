@@ -12,7 +12,7 @@ public class Class3 {
 		System.out.println("This is class3 Before Suite");
 	}
 	
-	@Test
+	@Test 
 	public void class3Method1()
 	{
 		System.out.println("This is class3Method1 ");
