@@ -1,5 +1,6 @@
 package TestNGPackage;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -16,6 +17,7 @@ public class Class1 {
 	public void class1Method1()
 	{
 		System.out.println("This is class1Method1 ");
+		Assert.assertTrue(false);
 	}
 	@Test(groups = {"smoke"})
 	public void class1Method2()
